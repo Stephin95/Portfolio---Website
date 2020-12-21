@@ -49,3 +49,5 @@ def create_app(test_config=None):
     #both '/' and '/index' works for this page specified by app.add_url_rule('/', endpoint='index') """
 
     return app
+
+create_app().run()
