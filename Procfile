@@ -1,1 +1,4 @@
-web: gunicorn wsgi:app
+gunicorn "Portfolio:create_app()"
+
+
+
