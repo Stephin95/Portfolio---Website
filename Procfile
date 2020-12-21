@@ -1,4 +1,4 @@
-gunicorn "Portfolio:create_app()"
+web: gunicorn "Portfolio:create_app()"
 
 
 
